@@ -1,0 +1,92 @@
+body {
+  background-image: url("bg.png");
+  font-family: sans-serif;
+  font-size: small;
+  text-align: center;
+
+
+ div {
+  width: 800px;
+  margin: auto;
+} 
+}
+.nav {
+  position: sticky;
+  position: absolute;
+  top: 8px;
+  right: 31px;
+  padding: 10px;
+  background-color: #ffe4c4;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(173, 162, 162);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(39, 248, 119);
+}
+
+/* selected link */
+a:active {
+  color: rgb(57, 57, 252);
+}
+.icon{
+  scale: 1;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 8px;
+  margin: 0px 0 2px 0;
+  display: inline-block;
+  border: none;
+  background: #ffe4c4;
+  color: grey;
+  font-size: 15px;
+}
+
+textarea { 
+  width: 40%;
+  padding: 8px;
+  margin: 5px 0 2px 0;
+  display: inline-block;
+  border: none;
+  background: #ffe4c4;
+  font-family: sans-serif;
+  color: grey;
+  font-size: 15px;
+  }
+
+.Contact {
+  position: static;
+  text-align: left;
+  margin-left: 480px;
+  font-size: 12px;
+}
+
+#Ueberschrift {
+  font-size: 21px;
+}
