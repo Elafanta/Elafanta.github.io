@@ -1,0 +1,56 @@
+body {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display:flex;
+    background-image: url(bg.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-align: center;
+}
+
+.stern1 {
+    position: absolute;
+    left:  50px;
+    top:   210px;
+}
+
+
+.stern2 {
+    position: absolute;
+    left:   150px;
+    top:    140px;
+}
+
+
+.stern3 {
+    position: absolute;
+    left:   250px;
+    top:    270px;
+}
+
+
+.stern4 {
+    position: absolute;
+    left:   499px;
+    top:    160px;
+}
+
+
+
+div:hover {
+    background-image: url("./stern_hover.png")}
+
+
+
+h1 {
+    position: absolute;
+    text-align: left;
+    color: white;
+    left: 50px;
+    top: 35px;
+    font-size: 23px;
+    padding: 5px;
+    width: 450px;
+}

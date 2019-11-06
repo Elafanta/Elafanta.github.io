@@ -1,0 +1,12 @@
+body {
+    position: absolute;
+    background-image: url(bg.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-align: center;
+}
+
+.nav {
+
+}
+
