@@ -80,7 +80,7 @@ var au4: number = australien18-australien08;
 console.log(a+australien+b+australien18+c+australien+d+au1+e+australien+f+au3+g+au4+h)
 
 
-function europe(){
+function europe (){
     document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Europe";
     document.querySelector("#text1").innerHTML = "Emission absolute of Europe in 2018";
     document.querySelector("#zahl1").innerHTML = "" + eu1;
@@ -89,11 +89,55 @@ function europe(){
     document.querySelector("#zahl4").innerHTML = "" + eu4;
     document.querySelector(".chart").setAttribute('style', 'height:' + eu2 + '%');
 }
-}
+
 window.addEventListener('load', function () {
-    document.querySelector('#Europe').addEventListener('click', function europe);
+    document.querySelector('#Europe').addEventListener('click', europe);
 });
 
 
-------------------------------------
 
+function northamerica (){
+    document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Nordthamerica";
+    document.querySelector("#text1").innerHTML = "Emission absolute of Northamerica in 2018";
+    document.querySelector("#zahl1").innerHTML = "" + na1;
+    document.querySelector("#zahl2").innerHTML = "" + na2;
+    document.querySelector("#zahl3").innerHTML = "" + na3;
+    document.querySelector("#zahl4").innerHTML = "" + na4;
+    document.querySelector(".chart").setAttribute('style', 'height:' + na2 + '%');
+}
+
+window.addEventListener('load', function () {
+    document.querySelector('#northamerica').addEventListener('click', northamerica);
+});
+
+
+
+function southamerica (){
+    document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Southamerica";
+    document.querySelector("#text1").innerHTML = "Emission absolute of Southamerica in 2018";
+    document.querySelector("#zahl1").innerHTML = "" + sa1;
+    document.querySelector("#zahl2").innerHTML = "" + sa2;
+    document.querySelector("#zahl3").innerHTML = "" + sa3;
+    document.querySelector("#zahl4").innerHTML = "" + sa4;
+    document.querySelector(".chart").setAttribute('style', 'height:' + sa2 + '%');
+}
+
+window.addEventListener('load', function () {
+    document.querySelector('#southamerica').addEventListener('click', southamerica);
+});
+
+
+
+function afric (){
+    document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Africa";
+    document.querySelector("#text1").innerHTML = "Emission absolute of Africa in 2018";
+    document.querySelector("#zahl1").innerHTML = "" + afr1;
+    document.querySelector("#zahl2").innerHTML = "" + afr2;
+    document.querySelector("#zahl3").innerHTML = "" + afr3;
+    document.querySelector("#zahl4").innerHTML = "" + afr4;
+    document.querySelector(".chart").setAttribute('style', 'height:' + afr2 + '%');
+}
+
+window.addEventListener('load', function () {
+    document.querySelector('#afric').addEventListener('click', afric)
+});
