@@ -7,4 +7,3 @@ function africa() {
     document.querySelector("#zahl4").innerHTML = "" + eu4;
     document.querySelector(".chart").setAttribute('style', 'height:' + eu2 + '%');
 }
-//# sourceMappingURL=africa.js.map

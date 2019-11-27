@@ -66,7 +66,7 @@ function europe() {
     document.querySelector(".chart").setAttribute('style', 'height:' + eu2 + '%');
 }
 window.addEventListener('load', function () {
-    document.querySelector('#Europe').addEventListener('click', europe);
+    document.querySelector('#europe').addEventListener('click', europe);
 });
 function northamerica() {
     document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Nordthamerica";
@@ -92,7 +92,7 @@ function southamerica() {
 window.addEventListener('load', function () {
     document.querySelector('#southamerica').addEventListener('click', southamerica);
 });
-function afric() {
+function africa() {
     document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Africa";
     document.querySelector("#text1").innerHTML = "Emission absolute of Africa in 2018";
     document.querySelector("#zahl1").innerHTML = "" + afr1;
@@ -102,6 +102,30 @@ function afric() {
     document.querySelector(".chart").setAttribute('style', 'height:' + afr2 + '%');
 }
 window.addEventListener('load', function () {
-    document.querySelector('#afric').addEventListener('click', afric);
+    document.querySelector('#africa').addEventListener('click', africa);
+});
+function asia() {
+    document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Asia";
+    document.querySelector("#text1").innerHTML = "Emission absolute of Asia in 2018";
+    document.querySelector("#zahl1").innerHTML = "" + as1;
+    document.querySelector("#zahl2").innerHTML = "" + as2;
+    document.querySelector("#zahl3").innerHTML = "" + as3;
+    document.querySelector("#zahl4").innerHTML = "" + as4;
+    document.querySelector(".chart").setAttribute('style', 'height:' + as2 + '%');
+}
+window.addEventListener('load', function () {
+    document.querySelector('#asia').addEventListener('click', asia);
+});
+function australia() {
+    document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Australia";
+    document.querySelector("#text1").innerHTML = "Emission absolute of Australia in 2018";
+    document.querySelector("#zahl1").innerHTML = "" + au1;
+    document.querySelector("#zahl2").innerHTML = "" + au2;
+    document.querySelector("#zahl3").innerHTML = "" + au3;
+    document.querySelector("#zahl4").innerHTML = "" + au4;
+    document.querySelector(".chart").setAttribute('style', 'height:' + au2 + '%');
+}
+window.addEventListener('load', function () {
+    document.querySelector('#australia').addEventListener('click', australia);
 });
 //# sourceMappingURL=Aufgabe6.js.map
