@@ -59,8 +59,8 @@ console.log(a + australien + b + australien18 + c + australien + d + au1 + e + a
 function europe() {
     document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Europe";
     document.querySelector("#text1").innerHTML = "Emission absolute of Europe in 2018";
-    document.querySelector("#zahl1").innerHTML = "" + eu1;
-    document.querySelector("#zahl2").innerHTML = "" + eu2;
+    document.querySelector("#zahl1").innerHTML = "" + europa18;
+    document.querySelector("#zahl2").innerHTML = "" + eu1;
     document.querySelector("#zahl3").innerHTML = "" + eu3;
     document.querySelector("#zahl4").innerHTML = "" + eu4;
     document.querySelector(".chart").setAttribute('style', 'height:' + eu2 + '%');
@@ -71,8 +71,8 @@ window.addEventListener('load', function () {
 function northamerica() {
     document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Nordthamerica";
     document.querySelector("#text1").innerHTML = "Emission absolute of Northamerica in 2018";
-    document.querySelector("#zahl1").innerHTML = "" + na1;
-    document.querySelector("#zahl2").innerHTML = "" + na2;
+    document.querySelector("#zahl1").innerHTML = "" + nordamerika18;
+    document.querySelector("#zahl2").innerHTML = "" + na1;
     document.querySelector("#zahl3").innerHTML = "" + na3;
     document.querySelector("#zahl4").innerHTML = "" + na4;
     document.querySelector(".chart").setAttribute('style', 'height:' + na2 + '%');
@@ -83,8 +83,8 @@ window.addEventListener('load', function () {
 function southamerica() {
     document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Southamerica";
     document.querySelector("#text1").innerHTML = "Emission absolute of Southamerica in 2018";
-    document.querySelector("#zahl1").innerHTML = "" + sa1;
-    document.querySelector("#zahl2").innerHTML = "" + sa2;
+    document.querySelector("#zahl1").innerHTML = "" + südamerika18;
+    document.querySelector("#zahl2").innerHTML = "" + sa1;
     document.querySelector("#zahl3").innerHTML = "" + sa3;
     document.querySelector("#zahl4").innerHTML = "" + sa4;
     document.querySelector(".chart").setAttribute('style', 'height:' + sa2 + '%');
@@ -95,8 +95,8 @@ window.addEventListener('load', function () {
 function africa() {
     document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Africa";
     document.querySelector("#text1").innerHTML = "Emission absolute of Africa in 2018";
-    document.querySelector("#zahl1").innerHTML = "" + afr1;
-    document.querySelector("#zahl2").innerHTML = "" + afr2;
+    document.querySelector("#zahl1").innerHTML = "" + afrika18;
+    document.querySelector("#zahl2").innerHTML = "" + afr1;
     document.querySelector("#zahl3").innerHTML = "" + afr3;
     document.querySelector("#zahl4").innerHTML = "" + afr4;
     document.querySelector(".chart").setAttribute('style', 'height:' + afr2 + '%');
@@ -107,8 +107,8 @@ window.addEventListener('load', function () {
 function asia() {
     document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Asia";
     document.querySelector("#text1").innerHTML = "Emission absolute of Asia in 2018";
-    document.querySelector("#zahl1").innerHTML = "" + as1;
-    document.querySelector("#zahl2").innerHTML = "" + as2;
+    document.querySelector("#zahl1").innerHTML = "" + asien18;
+    document.querySelector("#zahl2").innerHTML = "" + as1;
     document.querySelector("#zahl3").innerHTML = "" + as3;
     document.querySelector("#zahl4").innerHTML = "" + as4;
     document.querySelector(".chart").setAttribute('style', 'height:' + as2 + '%');
@@ -119,8 +119,8 @@ window.addEventListener('load', function () {
 function australia() {
     document.querySelector("#title").innerHTML = "Carbon Dioxide Emissions in Australia";
     document.querySelector("#text1").innerHTML = "Emission absolute of Australia in 2018";
-    document.querySelector("#zahl1").innerHTML = "" + au1;
-    document.querySelector("#zahl2").innerHTML = "" + au2;
+    document.querySelector("#zahl1").innerHTML = "" + australien18;
+    document.querySelector("#zahl2").innerHTML = "" + au1;
     document.querySelector("#zahl3").innerHTML = "" + au3;
     document.querySelector("#zahl4").innerHTML = "" + au4;
     document.querySelector(".chart").setAttribute('style', 'height:' + au2 + '%');
