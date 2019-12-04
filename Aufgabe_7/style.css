@@ -1,0 +1,122 @@
+body {
+    background-color: #000000;
+    text-align: center;
+}
+
+#position {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    transform: translate(-50%, -50%);
+    width: 200px;
+}
+
+button {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#button1 {
+    top: 10px;
+    left: 0px;
+    background-color: #4d79ff;
+    border-color: #4d79ff;
+    position: absolute; 
+}
+
+#button2 {
+    top: 10px;
+    left: 150px;
+    background-color: #4d79ff;
+    border-color: #4d79ff;
+    position: absolute; 
+}
+
+#button3 {
+    top: 10px;
+    left: 300px;
+    background-color: #4d79ff;
+    border-color: #4d79ff;
+    position: absolute; 
+}
+
+#button4 {
+    top: 160px;
+    left: 0px;
+    background-color: #f76ee0;
+    border-color: #f76ee0;
+    position: absolute; 
+}
+
+#button5 {
+    top: 160px;
+    left: 150px;
+    background-color: #f76ee0;
+    border-color: #f76ee0;
+    position: absolute; 
+}
+
+#button6 {
+    top: 160px;
+    left: 300px;
+    background-color: #f76ee0;
+    border-color: #f76ee0;
+    position: absolute; 
+}
+
+#button7 {
+    top: 310px;
+    left: 0px;
+    background-color: #f76ee0;
+    border-color: #f76ee0;
+    position: absolute; 
+}
+
+#button8 {
+    top: 310px;
+    left: 150px;
+    background-color: #f79941;
+    border-color: #f79941;
+    position: absolute; 
+}
+
+#button9 {
+    top: 310px;
+    left: 300px;
+    background-color: #f79941;
+    border-color: #f79941;
+    position: absolute; 
+}
+
+#playButton {
+    position: absolute;
+    left: 90px;
+    top: 460px;
+}
+
+#playButton:hover {
+    background-color: #000000;
+    opacity: 0.7;
+}
+
+#pauseButton {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    left: 255px;
+    top: 490px;
+}
+
+#pauseButton:hover {
+    background-color: #000000;
+    opacity: 0.7;    
+}
+
+
+
+
